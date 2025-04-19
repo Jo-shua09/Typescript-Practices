@@ -35,4 +35,8 @@ function consoleError(err: string): void {
   console.log(err);
 }
 
+function handleError(err: string): never {
+  throw new Error(err);
+}
+
 export {};
