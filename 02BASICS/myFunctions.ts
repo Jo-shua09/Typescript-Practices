@@ -1,4 +1,4 @@
-function addTwo(num: number) {
+function addTwo(num: number): number {
   return num + 2;
 }
 
@@ -14,5 +14,25 @@ addTwo(5);
 getUpper("Joshua");
 signUp("Joshua", "jon@gmail.com", false);
 login("j", "j@.com");
+
+// function getValue(myval: number) {
+//   if (myVal > 5) {
+//     return true;
+//   }
+// }
+
+const getHello = (s: string): string => {
+  return "";
+};
+
+const heros = ["thors", "hawk"];
+
+heros.map((hero): string => {
+  return `hero is ${hero}`;
+});
+
+function consoleError(err: string): void {
+  console.log(err);
+}
 
 export {};
