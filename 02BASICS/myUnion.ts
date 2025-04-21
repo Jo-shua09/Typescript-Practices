@@ -21,3 +21,13 @@ function getDbId(id: number | string) {
     id.toLowerCase();
   }
 }
+
+// ARRAYS
+
+const data: number[] = [1, 2, 3];
+const data2: string[] = ["1", "2", "3"];
+const data3: (string | number | boolean)[] = ["1", "2", "3", true];
+
+let seatAllotment: "aile" | "middle" | "window";
+
+seatAllotment = "aile";
