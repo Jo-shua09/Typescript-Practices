@@ -18,3 +18,16 @@ function isAdminAccount(account) {
         return account.isAdmin;
     }
 }
+function isFish(pet) {
+    return pet.swim !== undefined;
+}
+function getFood(pet) {
+    if (isFish(pet)) {
+        pet;
+        return "Fish Foood";
+    }
+    else {
+        pet;
+        return "Bird Foood";
+    }
+}
