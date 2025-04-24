@@ -18,3 +18,13 @@ identity4({
     brand: "",
     type: 0,
 });
+function gateSearchedProducts(product) {
+    //do some database operations
+    const myIndex = 3;
+    return product[myIndex];
+}
+const getMoreSearchedProducts = (product) => {
+    //do some database operations
+    const myIndex = 4;
+    return product[myIndex];
+};

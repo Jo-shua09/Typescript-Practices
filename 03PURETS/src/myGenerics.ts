@@ -28,3 +28,15 @@ identity4<Bottle>({
   brand: "",
   type: 0,
 });
+
+function gateSearchedProducts<T>(product: T[]): T {
+  //do some database operations
+  const myIndex = 3;
+  return product[myIndex];
+}
+
+const getMoreSearchedProducts = <T>(product: T[]): T => {
+  //do some database operations
+  const myIndex = 4;
+  return product[myIndex];
+};
